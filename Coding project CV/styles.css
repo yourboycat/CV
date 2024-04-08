@@ -1,0 +1,153 @@
+h1{
+width: auto;
+height: 70px;
+text-align: center;
+}
+.underline{
+    text-decoration: underline;
+    text-align:center;
+    background-color: #272829;
+    color: white;
+    padding: 10px;
+}
+.mainpic{
+
+display: block;
+height: auto;
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 25px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.box {
+    flex-basis: 15%;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+}
+.logo1{
+    width: 110px;
+    height: 70px;  
+}
+.contact-button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    border-radius: 10px;
+}
+.button{
+    width: 100%;
+    display:block;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
+.query{
+    text-align: center;
+}
+.submission-button{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    background-color:black;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+
+}
+.contact-me-page{
+    background-color: #D8D9DA;
+}
+.my-page{
+    background-color: white;
+}
+.profile-link{
+    text-align: center;
+    width: 20%;
+    padding-left: 100px;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    color:white;
+    height: 50px;
+}
+.profile-link:hover{
+color: black;
+}
+.copyright{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contact-me-footer{
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: #272829; 
+    color: white; 
+    bottom: 0;
+    
+    width: 100%;
+    padding: 20px;
+    text-align: center; 
+} 
+li{
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow:hidden;
+    padding-left: 400px;
+}
+.navbar{
+padding: 8px;
+text-align: center;
+background-color:#272829;
+
+}
+
+li a:hover{
+    color: #D8D9DA;
+    float: left;
+} 
+.border{
+    background-color: white;
+    height: 5px;
+    color: white;
+    border-radius: 10px;
+}
